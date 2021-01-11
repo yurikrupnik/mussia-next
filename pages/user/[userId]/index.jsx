@@ -24,9 +24,11 @@ export default function UserPage({ user }) {
             text-align: left;
             margin-right: 0.5rem;
           }
+
           button {
             margin: 0 0.25rem;
           }
+
           img {
             width: 10rem;
             height: auto;
@@ -35,14 +37,17 @@ export default function UserPage({ user }) {
             margin-right: 1.5rem;
             background-color: #f3f3f3;
           }
+
           div {
-            color: purple;
+            color: #b04747;
           }
+
           p {
             font-family: monospace;
             color: #444;
             margin: 0.25rem 0 0.75rem;
           }
+
           a {
             margin-left: 0.25rem;
           }
