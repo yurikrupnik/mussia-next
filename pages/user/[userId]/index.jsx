@@ -36,7 +36,7 @@ export default function UserPage({ user }) {
             background-color: #f3f3f3;
           }
           div {
-            color: #777;
+            color: purple;
           }
           p {
             font-family: monospace;
