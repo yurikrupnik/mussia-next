@@ -5,6 +5,7 @@ export async function getPosts(db, from = new Date(), by, limit) {
     .collection('posts')
     .find({
       // Pagination: Fetch posts from before the input date or fetch from newest
+      // datasssss
       ...(from && {
         createdAt: {
           $lte: from,
